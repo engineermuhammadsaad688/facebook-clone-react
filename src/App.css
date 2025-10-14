@@ -1,23 +1,53 @@
-.container{
+.container {
   background-color: blue;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-left: 28px;
-    padding-right: 50px;
+  padding-right: 50px;
 
 }
-.nav-left{
+
+.nav-left {
   display: flex;
   align-items: center;
   gap: 20px;
 }
-.images{
+
+.images {
   display: flex;
   gap: 40px;
 }
-.nav-right{
+
+.nav-right {
   display: flex;
   gap: 20px;
   align-items: center;
+}
+
+.nav-user-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-user-icon img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.online {
+  position: relative;
+}
+
+.online::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background-color: #41db51;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

@@ -39,8 +39,8 @@ const Navbar = () => {
       />
     </div>
 
-        <div className='Profile'>
-          q
+        <div className='nav-user-icon online'>
+          <img src='./images/profile-pic.png'/>
         </div>
       </div>
     </div>
