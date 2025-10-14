@@ -1,0 +1,23 @@
+.container{
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 28px;
+    padding-right: 50px;
+
+}
+.nav-left{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.images{
+  display: flex;
+  gap: 40px;
+}
+.nav-right{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
