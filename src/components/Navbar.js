@@ -3,7 +3,8 @@ import { FaSearch } from "react-icons/fa"; // icon import karna
 
 const Navbar = () => {
   return (
-    <div className='container'>
+    <>
+    <div className='main-container '>
       <div className='nav-left'>
         <img src='images/logo.png' className='logo' />
         <div className='images'>
@@ -21,7 +22,8 @@ const Navbar = () => {
         backgroundColor: "#f0f2f5",
         borderRadius: "30px",
         padding: "11px 12px",
-        width: "250px",
+        width: "300px",
+        boxSizing:"border-box"
       }}
     >
       <FaSearch style={{ color: "#555", marginRight: "8px", fontSize: "14px" }} />
@@ -44,6 +46,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 
